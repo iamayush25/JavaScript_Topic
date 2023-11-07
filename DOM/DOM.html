@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Document Object Module</title>
+    <style>
+        table {
+            border: 2px solid black;
+            background-color: aqua;
+        }
+
+        td {
+            border: 2px solid black;
+            font-size: 35px;
+        }
+        #main-box{
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="main-box"> 
+        <table id="table1">
+            <tr id="redRow">
+                <td>1:1</td>
+                <td>2:1</td>
+                <td>3:1</td>
+                <td>4:1</td>
+                <td>5:1</td>
+            </tr>
+            <tr id="blueRow">
+                <td>1:2</td>
+                <td>2:2</td>
+                <td>3:2</td>
+                <td>4:2</td>
+                <td>5:2</td>
+            </tr>
+            <tr id="greenRow">
+                <td>1:1</td>
+                <td>2:2</td>
+                <td>3:4</td>
+                <td>4:5</td>
+                <td>5:6</td>
+            </tr>
+            <tr id="pinkRow">
+                <td>1:1</td>
+                <td>2:1</td>
+                <td>2:3</td>
+                <td>2:4</td>
+                <td>2:5</td>
+            </tr>
+            <tr id="yellowRow">
+                <td>3:1</td>
+                <td>3:2</td>
+                <td>3:3</td>
+                <td>3:4</td>
+                <td>3:5</td>
+            </tr>
+        </table>
+    </div> 
+
+    <script>
+
+        // const tableTag = document.body.style = "background-color : red;"
+        // console.log(tableTag.rows);
+
+        let table1 = document.getElementById("redRow").style.backgroundColor="red";
+        let table3= document.getElementById("blueRow").style.backgroundColor="blue";
+        let table2= document.getElementById("greenRow").style.backgroundColor="green";
+        let table4= document.getElementById("pinkRow").style.backgroundColor="pink";
+        let table5= document.getElementById("yellowRow").style.backgroundColor="yellow";
+    </script>
+    <!-- 
+    //    let a = document.getElementById("Box1")
+    //     a.textContent = "Ayush sharma"   
+    //     a.style.color = 'red'
+    //     a.style.fontSize = "40px";
+    //    a.style.backfaceVisibility = '5px'
+    //     console.log(a);
+    
+
+
+        // let b = document.createElement("p")
+        // b.innerHTML = "Hello i am Ayush Sharma and i am from ujjain"
+        // console.log(b);
+
+
+        // let st = document.querySelector("#Box5")
+        // st.innerHTML = "shivam kumar";
+        
+
+        // inner.forEach(element => {
+        //     element.style.color="blue"
+        // });
+    
+ -->
+
+
+
+
+    </script>
+</body>
+
+</html>

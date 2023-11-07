@@ -1,0 +1,31 @@
+*{
+    padding: 0%;
+    margin:  0%;
+}
+
+img{
+    /* filter: grayscale(100);  */
+    /* display: inline-block; */
+    margin: 20px 0px 20px 10px;
+    width: 20%;
+    height: 30%;
+}
+#one{
+    display: inline-block;
+}
+#buttonOne{
+    position: absolute;
+    left: 25%;
+    top: 10%;
+}
+
+#buttonTwo{
+    position: absolute;
+    left: 27%;
+    bottom:  40%;
+}
+
+img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.5);
+}
